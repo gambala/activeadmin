@@ -20,7 +20,6 @@ const terserOptions = {
       //= require jquery-ui/widgets/sortable
       //= require jquery-ui/widgets/tabs
       //= require jquery-ui/widget
-      //= require jquery_ujs
       //= require_self
     ` + '\n',
     wrap_func_args: false
@@ -48,6 +47,5 @@ export default {
     'jquery-ui/ui/widgets/sortable',
     'jquery-ui/ui/widgets/tabs',
     'jquery-ui/ui/widget',
-    'jquery-ujs'
   ]
 }
